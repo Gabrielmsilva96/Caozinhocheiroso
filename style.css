@@ -1,0 +1,377 @@
+@charset "UTF-8";
+
+/************Geral**********/
+
+body, html{
+    background: rgb(18, 32, 71);
+    overflow-x: hidden;
+}
+
+.titulo{
+    padding: 30px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background: white;
+}
+
+
+
+
+/************Navegação**********/
+
+.navbar{
+    position: fixed;
+    box-shadow: 0px 0px 15px 0px black;
+}
+
+
+
+#home button{
+    color: rgb(160, 110, 167);
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+#nav-principal ul li{
+    margin-left: 5px;
+    
+}
+
+#nav-principal a{
+    text-align: center;
+    color: #52396B;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#nav-principal a:hover{
+    background: #e3d2f523;
+    color: #281c35;
+}
+
+
+
+/************Slide**********/
+
+.capa-slide{
+    position: relative;
+    top: 120px;
+}
+
+/************Sobre-nós**********/
+#sobre-nos{
+    margin-top: 120px;
+    padding-top: 100px;
+}
+
+.text-sobre{
+    padding: 30px;
+}
+
+#sobre-nos p {
+   
+    font-size: 1.1em;
+}
+
+.capa img{
+    float: right;
+    position: relative;
+    left: 15px;
+ }
+
+ /************Serviços**********/
+
+ #servicos .container{
+     margin: 0 auto;
+ }
+
+ #servicos h3{
+     padding-top: 125px;
+ }
+
+#servicos p {
+    font-size: 0.9em;
+}
+
+.area-servicos{
+    background: #4169e1;
+}
+
+#servicos h3{
+    color: white;
+}
+
+.conteudo-servicos{
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+#servicos h4{
+    padding: 10px 0px;
+}
+
+
+/************Planos**********/
+
+#planos .container{
+    padding-top: 100px;
+}
+
+#planos .item{
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px 0px;
+    background: rgb(160, 110, 167);
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.botao-interesse a{
+    text-decoration: none;
+    background: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(160, 110, 167) ;
+    padding: 5px 30px;
+    box-shadow: 2px 2px 5px 2px black;
+    border-radius: 5px;
+}
+
+
+.botao-interesse a:hover{
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.planinhos span{
+    font-size: 2em;
+}
+
+
+.taxi-dog img{
+    margin-top: 0;
+    position: relative;
+    top: 30px;
+    right: 50px ;
+}
+
+/************Atendimento**********/
+
+#atendimento .container{
+   color: white;
+   padding-top: 70px;
+}
+
+#atendimento .container{
+    background: #52396B;
+    background-image: url(img/promoBanho.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 480px;
+}
+
+#atendimento h2{
+    padding: 50px 0px 0px 0px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#atendimento h5{
+    text-shadow: 2px 2px 4px black;
+    padding: 20px 0px;
+}
+
+.link-atendimento{
+    margin-top: 20px;
+}
+
+.link-atendimento p{
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.link-atendimento a{
+    margin-left: 5px;
+}
+
+
+/************Footer**********/
+
+#contatos .container{
+    padding: 20px 0px 10px 0px;
+}
+
+.empresa, .contato{
+    padding: 20px;
+}
+
+.empresa ul li , .contato ul li{
+    list-style: none;
+}
+
+.empresa a, .contato a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.empresa a:hover, .contato a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: 500;
+}
+
+
+footer .container{
+    background: #24879C;
+    color: white;
+}
+
+.img-logo{
+    text-align: center;
+}
+
+.list-contatos ul li{
+   
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+
+.localizacao i{
+    border: 1px solid red;
+    font-size: 40px;
+
+}
+
+/******************************************/
+        /* Extra small devices (portrait phones, less than 576px)*/
+        @media (max-width: 575.98px) {
+
+
+            .taxi-dog img{
+                position: relative;
+                left: -20px;
+                width: 400px;
+                margin: 0;
+                padding: 0;
+            }
+
+            #atendimento h2{
+                font-size: 2em;
+            }
+
+            .empresa{
+                text-align: center;
+            }
+
+            .contato{
+                text-align: center;
+            }
+
+            .taxi-dog img{
+                margin-top: 0;
+                position: relative;
+                top: 30px;
+                right: 100px;
+            }
+
+            .text-sobre{
+                font-size: 0.9em;
+            }
+            
+
+
+           
+        }
+  
+          /* Small devices (landscape phones, 576px and up)*/
+          @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+            .taxi-dog img{
+                width: 500px;
+            }
+          
+           
+            .empresa{
+                text-align: center;
+            }
+
+            .contato{
+                text-align: center;
+            }
+
+            .text-sobre{
+                font-size: 0.9em;
+            }
+
+
+
+          }
+  
+          /* Medium devices (tablets, 768px and up)*/
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            
+           
+
+            #atendimento h2{
+                font-size: 2em;
+            }
+
+            .text-sobre{
+                font-size: 0.9em;
+            }
+
+            .contato, .empresa{
+                text-align: center;
+            }
+
+            
+            
+
+          }
+  
+          /* Large devices (desktops, 992px and up)*/
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+
+            .text-sobre{
+                font-size: 0.9em;
+            }
+
+            .capa img{
+                float: right;
+                position: relative;
+                left: 15px;
+             }
+
+
+            .taxi-dog img{
+                margin-top: 0;
+                position: relative;
+                top: 30px;
+                left: -120px;
+            }
+
+            .localizacao iframe{
+                width: 350px;
+            }
+
+            .contato{
+                text-align: center;
+            }
+
+        
+          }
+  
+          /* Extra large devices (large desktops, 1200px and up)*/
+          @media (min-width: 1200px) {
+           
+          }
+
